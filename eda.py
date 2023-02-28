@@ -1,23 +1,10 @@
-from skimage import measure
-import pydicom
 import pandas as pd
 import numpy as np
 from glob import glob
-import nibabel as nib
-from mpl_toolkits.mplot3d.art3d import Poly3DCollection
-import itertools
-from time import time
-from pprint import pprint
-from tqdm import tqdm
-from pydicom.pixel_data_handlers.util import apply_voi_lut
-import gc
-import re
-import cv2
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import seaborn as sns
 sns.set(style='darkgrid', font_scale=1.6)
-# import pydicom
 import os
 
 
